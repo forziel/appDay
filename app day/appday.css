@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.appday-container{
+    font-family: 'Merriweather', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.wrapper{
+    width: 975px;
+    height: 662px;
+    background-color: #252B42;
+    border-radius: 25px;
+    display: flex;
+}
+
+/*! NAVBAR */
+
+.navbar{
+    width: 88px;
+    height: 592px;
+    background-color: #1A2036;
+    border-radius: 20px;
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navbar button{
+    width: 58px;
+    height: 58px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #7F89A9;
+    transition: all .3s;
+    border-radius: 10px;
+}
+
+
+.navbar button:focus{
+    color: #B5BFE4;
+    background-color: #7f89a933;
+}
+
+
+/*! HEADER*/
+
+.header-container{
+    display: flex;
+    align-items: flex-start;
+}
+.header{
+display: flex;
+align-items: center ;
+justify-content: space-between;
+
+}
+.text{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    color: #B1B9D8;
+}
+.text a{
+    font-size: 20px;
+    color: #B1B9D8;
+    margin-right: 5px;
+}
+.text h2{
+    font-size: 26px;
+    font-weight: 700;
+
+}
+.grid{
+    width: 104px;
+    height: 52px;
+    display: flex;
+    margin-left: 516px;
+    margin-top: 60px;
+
+}
+.grid button{
+    width: 52px;
+    height: 52px;
+    border: none;
+    background-color: transparent;
+    color: #7F89A9;
+    font-size: 20px;
+    border: #1A2036 1px solid;
+}
+
+
+/*! CONTENT */
+
+.content{
+    width: 757px;
+    height: 436px;
+    margin-top: 35px;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+.group{
+    width: 173px;
+    height: 208px;
+    margin: 0 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1A2036;
+}
+
+.avatar{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-top: 40px;
+    font-size: 72px;
+    color: #808FBE;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activate{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #B1B9D8;
+}
+
+.members{
+    font-size: 14px;
+    color: #B1B9D8;
+}
+.content .group:first-child  .members {
+    margin-top: 14px;
+}
+
+.group:nth-child(3),
+.group:nth-child(4){
+    margin: 0;
+}
+.group:nth-child(4){
+    margin-left: 20px;
+}
